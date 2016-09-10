@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+html {
+    background-image: url("/images/barkeep.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+}
+
+.title {
+    background-color: beige;
+}
+
+div,
+h1,
+.output {
+    text-align: center;
+}
+
+div {
+    margin-top: 40px;
+    font-weight: bold;
+    color: red;
+}
+
+.logo {
+    width: 41px;
+    height: 33px;
+}
+
+.output {
+    color: deeppink;
+    font-weight: bold;
+}
+
+.pirate-form,
+.output {
+    width: 40%;
+    max-width: 27rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2rem;
+    background-image: url("../images/transparent.jpg");
+    color: white;
+    -webkit-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.75);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+.output ul {
+    list-style: none;
+}
